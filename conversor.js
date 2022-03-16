@@ -47,8 +47,8 @@ let trocaBandeira = document.getElementById("tocaBandeira");
     }
 
     if (select1.value === "R$ Real Brasileiro" && select2.value === "Є Euro"){
-        let valorReal = inputVreal / euro;
-        resuladoDaConversao.innerHTML = valorReal.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}); 
+        let valorEuro = inputVreal / euro;
+        resuladoDaConversao.innerHTML = valorEuro.toLocaleString("de-DE",{style: "currency", currency: "EUR"});
 
     }
 
